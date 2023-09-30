@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Option Chain Data</title>
+</head>
+<body>
+    <h1>Option Chain Data</h1>
+    <h2>Nifty</h2>
+    <pre>{{ data.nifty_header }}</pre>
+    <hr>
+    <h3>Open Interest</h3>
+    <pre>{{ data.nifty_oi | join("\n") }}</pre>
+    <h2>Bank Nifty</h2>
+    <pre>{{ data.banknifty_header }}</pre>
+    <hr>
+    <h3>Open Interest</h3>
+    <pre>{{ data.banknifty_oi | join("\n") }}</pre>
+</body>
+</html>
